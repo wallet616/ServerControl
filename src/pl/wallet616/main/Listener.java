@@ -38,10 +38,6 @@ public class Listener {
                 
                 String decodedInput = Decode.decode(commandInput);
                 
-                if (decodedInput.equals("Error.")) {
-                	vailCommand = false;
-                }
-                
                 try 
     			{
                 	if ((decodedInput.length() - decodedInput.replaceAll(":", "").length()) >= 2)
